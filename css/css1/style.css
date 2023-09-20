@@ -1,0 +1,15 @@
+body{
+    width: 900px;
+    margin: auto;
+}
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+h4{
+    color: blueviolet;
+}
+img{
+    width: 700px;
+    height: 500px;
+}

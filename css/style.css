@@ -1,0 +1,205 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    overflow: hidden;
+}
+/* img{
+    width: 100%;
+} */
+p{
+    font-size: 18px;
+    color: #3b506c;
+}
+
+header{
+    padding: 15px 0px 10px;
+    background-color: white;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 13px 14px -10px;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.logo{
+    width: 600px;
+    float: left;
+}
+
+.logo img{}
+
+nav {
+    width: 600px;
+    float: left;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0px 15px 14px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #3b506c;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* banner */
+
+.banner{
+    text-align: center;
+    margin: 150px 0px 50px 0px ;
+}
+
+.banner h1{
+    font-size: 50px;
+    color: #3b506c;
+}
+
+.banner h1 span{
+    color: #0c66ff;
+}
+
+.banner p{font-size: 20px;color: #3b506c;}
+
+.banner img{
+    width: 50%;
+    margin: 50px 0px 0px 0px ;
+}
+
+/* completed project */
+.projects{
+    width: 50%;
+    float: left;
+}
+
+.project-left{
+    text-align: right;
+    padding: 0px  20px  0px 23px;
+}
+
+.project-left h2{
+    font-size: 50px;
+    color: red;
+}
+
+.project-left p{}
+
+.project-right{
+    padding: 0px 0px 0px 20px;
+}
+
+.project-right h2{
+    font-size: 50px;
+    color: #3b506c;
+}
+/* blog section */
+
+.blog-parent{
+    display: flex;
+    margin: 70px auto;
+    padding: 20px;
+}
+.blog{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 10px 10px;
+    margin: 0px 10px 0px 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.blog-item{}
+.blog-item img{
+    width: 100%;
+    height: 220px;
+}
+.blog-item h3{
+    color: #3b506c;
+}
+
+.blog-item p{}
+
+.color1{
+    background-color: rgba(216, 112, 147, 0.103);
+}
+
+.color2{
+    background-color: rgba(0, 128, 0, 0.137) ;
+}
+
+.color3{
+    background-color: rgba(255, 255, 0, 0.116);
+}
+
+.blog:hover{
+    box-shadow: rgba(0, 0, 0, 0,16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 10px 10px ;
+    background-color: rgba(216, 112, 147, 0.103);
+}
+/* footer */
+
+footer{
+    background-color: #80808040;
+    padding: 40px 0px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col{}
+
+.col h4{
+    color: #3b506c;
+    font-size: 25px;
+}
+
+.col li{
+    list-style: none;
+    margin: 10px 0px;
+    color: #3b506c;
+}
+
+
+
+
+
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #0c66ff; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 100%; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    line-height: 30px;
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
